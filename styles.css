@@ -1,51 +1,71 @@
+.masthead {
+  background: #FFE46F;
+}
+
+
 .section {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .course-definition {
-    display: grid;
-    grid-template-columns: 2fr 4fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
-  }
+  display: grid;
+  grid-template-columns: 2fr 4fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
 
-  .course-section {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-  }
-  
-  .course-section--html {
-    grid-column-start: 1;
-    grid-row-start: 1;
-    background: #FE5817;
-  }
-  .course-section--css {
-    grid-column-start: 1;
-    grid-row-start: 2;
-    background: #00A9E0;
-  }
-  .course-section--js {
-    grid-column-start: 1;
-    grid-row-start: 3;
-    background: #F9C200;
-  }
-  .course-section--fw {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    background: #64DA10;
-  }
-  .course-section--testing {
-    grid-column-start: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    background: #9A00CA;
-  }
-  .course-section--jobsearch {
-    grid-column-start: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    background: #ccc;
+.course-section__title {
+  font-weight: bold;
+}
+
+.course-section__detail {
+  font-size: 14px;
+}
+
+.course-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+.course-section--html {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  background: #FE5817;
+}
+.course-section--css {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  background: #00A9E0;
+}
+.course-section--js {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  background: #F9C200;
+}
+.course-section--fw {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background: #64DA10;
+}
+.course-section--testing {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background: #9A00CA;
+}
+.course-section--jobsearch {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background: #ccc;
+}
+
+
+
+  p {
+    text-align: justify;
   }
