@@ -2,21 +2,33 @@
   background: #FFE46F;
 }
 
-/* Headers */
+/* Sections */
 
 .section__title {
+  font-size: 60px;
   display: inline-block;
   border-bottom: 10px #FFE46F solid;
-  line-height: 20px;
+  margin: 100px 0;
 }
 
+.section__content {
+  margin: 100px 0;
+}
+
+/* Main section */
+
+.main-quote {
+  margin: 0 auto 60px auto;
+  width: 75%;
+  text-align: center;
+}
+
+.quote {
+  font-style: italic;
+}
 
 p {
   text-align: justify;
-}
-
-.section {
-  padding: 50px 0;
 }
 
 .course-definition {
